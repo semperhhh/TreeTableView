@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B5CBFFFE9E88E948099A4BF /* libPods-TreeTableViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A36C1227BBAAAD562F2090B /* libPods-TreeTableViewTests.a */; };
+		C231F7051F39D0868B35B3F7 /* libPods-TreeTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB17F8A2E626508A8766CF0 /* libPods-TreeTableView.a */; };
 		DA4BC5E11E8E02BF001BF109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4BC5E01E8E02BF001BF109 /* main.m */; };
 		DA4BC5E41E8E02BF001BF109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4BC5E31E8E02BF001BF109 /* AppDelegate.m */; };
 		DA4BC5E71E8E02BF001BF109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4BC5E61E8E02BF001BF109 /* ViewController.m */; };
@@ -14,6 +16,9 @@
 		DA4BC5EC1E8E02BF001BF109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4BC5EB1E8E02BF001BF109 /* Assets.xcassets */; };
 		DA4BC5EF1E8E02BF001BF109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4BC5ED1E8E02BF001BF109 /* LaunchScreen.storyboard */; };
 		DA4BC5FA1E8E02BF001BF109 /* TreeTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4BC5F91E8E02BF001BF109 /* TreeTableViewTests.m */; };
+		DAD0DA1C1E91ED8500D09099 /* tree.json in Resources */ = {isa = PBXBuildFile; fileRef = DAD0DA1B1E91ED8500D09099 /* tree.json */; };
+		DAD0DA1F1E91EE1600D09099 /* ZPHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD0DA1E1E91EE1600D09099 /* ZPHTableView.m */; };
+		DAD0DA221E92073E00D09099 /* ZPHModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD0DA211E92073E00D09099 /* ZPHModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004A8019D7D250D4D29313B9 /* Pods-TreeTableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeTableViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreeTableViewTests/Pods-TreeTableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2620E2F5700AAE297E5FF101 /* Pods-TreeTableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeTableViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TreeTableViewTests/Pods-TreeTableViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CB17F8A2E626508A8766CF0 /* libPods-TreeTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreeTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B4B4B9CE17226F45BF5FF4 /* Pods-TreeTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreeTableView/Pods-TreeTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		8A36C1227BBAAAD562F2090B /* libPods-TreeTableViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreeTableViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1CD892973D50D28B98625C /* Pods-TreeTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TreeTableView/Pods-TreeTableView.release.xcconfig"; sourceTree = "<group>"; };
 		DA4BC5DC1E8E02BF001BF109 /* TreeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4BC5E01E8E02BF001BF109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA4BC5E21E8E02BF001BF109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +51,11 @@
 		DA4BC5F51E8E02BF001BF109 /* TreeTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4BC5F91E8E02BF001BF109 /* TreeTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeTableViewTests.m; sourceTree = "<group>"; };
 		DA4BC5FB1E8E02BF001BF109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD0DA1B1E91ED8500D09099 /* tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tree.json; sourceTree = "<group>"; };
+		DAD0DA1D1E91EE1600D09099 /* ZPHTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPHTableView.h; sourceTree = "<group>"; };
+		DAD0DA1E1E91EE1600D09099 /* ZPHTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPHTableView.m; sourceTree = "<group>"; };
+		DAD0DA201E92073E00D09099 /* ZPHModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPHModel.h; sourceTree = "<group>"; };
+		DAD0DA211E92073E00D09099 /* ZPHModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPHModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C231F7051F39D0868B35B3F7 /* libPods-TreeTableView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +71,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5CBFFFE9E88E948099A4BF /* libPods-TreeTableViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		189A08356ACF8822F458C57E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CB17F8A2E626508A8766CF0 /* libPods-TreeTableView.a */,
+				8A36C1227BBAAAD562F2090B /* libPods-TreeTableViewTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A43034979F2DE634C771A46D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55B4B4B9CE17226F45BF5FF4 /* Pods-TreeTableView.debug.xcconfig */,
+				CD1CD892973D50D28B98625C /* Pods-TreeTableView.release.xcconfig */,
+				004A8019D7D250D4D29313B9 /* Pods-TreeTableViewTests.debug.xcconfig */,
+				2620E2F5700AAE297E5FF101 /* Pods-TreeTableViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA4BC5D31E8E02BF001BF109 = {
 			isa = PBXGroup;
 			children = (
 				DA4BC5DE1E8E02BF001BF109 /* TreeTableView */,
 				DA4BC5F81E8E02BF001BF109 /* TreeTableViewTests */,
 				DA4BC5DD1E8E02BF001BF109 /* Products */,
+				A43034979F2DE634C771A46D /* Pods */,
+				189A08356ACF8822F458C57E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +121,8 @@
 		DA4BC5DE1E8E02BF001BF109 /* TreeTableView */ = {
 			isa = PBXGroup;
 			children = (
+				DAD0DA1B1E91ED8500D09099 /* tree.json */,
+				DAD0DA171E91E8F900D09099 /* ZPHTableView */,
 				DA4BC5E21E8E02BF001BF109 /* AppDelegate.h */,
 				DA4BC5E31E8E02BF001BF109 /* AppDelegate.m */,
 				DA4BC5E51E8E02BF001BF109 /* ViewController.h */,
@@ -90,6 +132,8 @@
 				DA4BC5ED1E8E02BF001BF109 /* LaunchScreen.storyboard */,
 				DA4BC5F01E8E02BF001BF109 /* Info.plist */,
 				DA4BC5DF1E8E02BF001BF109 /* Supporting Files */,
+				DAD0DA201E92073E00D09099 /* ZPHModel.h */,
+				DAD0DA211E92073E00D09099 /* ZPHModel.m */,
 			);
 			path = TreeTableView;
 			sourceTree = "<group>";
@@ -111,6 +155,15 @@
 			path = TreeTableViewTests;
 			sourceTree = "<group>";
 		};
+		DAD0DA171E91E8F900D09099 /* ZPHTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DAD0DA1D1E91EE1600D09099 /* ZPHTableView.h */,
+				DAD0DA1E1E91EE1600D09099 /* ZPHTableView.m */,
+			);
+			path = ZPHTableView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA4BC5FE1E8E02BF001BF109 /* Build configuration list for PBXNativeTarget "TreeTableView" */;
 			buildPhases = (
+				879E7447F0EE295CBB1EA00C /* [CP] Check Pods Manifest.lock */,
 				DA4BC5D81E8E02BF001BF109 /* Sources */,
 				DA4BC5D91E8E02BF001BF109 /* Frameworks */,
 				DA4BC5DA1E8E02BF001BF109 /* Resources */,
+				C87C0207E6991485159115E4 /* [CP] Embed Pods Frameworks */,
+				9B8C6CBBDE81A10CB916AF64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA4BC6011E8E02BF001BF109 /* Build configuration list for PBXNativeTarget "TreeTableViewTests" */;
 			buildPhases = (
+				D2B4C9DE35261E3D5714FF59 /* [CP] Check Pods Manifest.lock */,
 				DA4BC5F11E8E02BF001BF109 /* Sources */,
 				DA4BC5F21E8E02BF001BF109 /* Frameworks */,
 				DA4BC5F31E8E02BF001BF109 /* Resources */,
+				60878F8E0A835DE289B054AC /* [CP] Embed Pods Frameworks */,
+				2DCE55E3D4BFDE88742D209C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA4BC5EF1E8E02BF001BF109 /* LaunchScreen.storyboard in Resources */,
+				DAD0DA1C1E91ED8500D09099 /* tree.json in Resources */,
 				DA4BC5EC1E8E02BF001BF109 /* Assets.xcassets in Resources */,
 				DA4BC5EA1E8E02BF001BF109 /* Main.storyboard in Resources */,
 			);
@@ -210,13 +270,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DCE55E3D4BFDE88742D209C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreeTableViewTests/Pods-TreeTableViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60878F8E0A835DE289B054AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreeTableViewTests/Pods-TreeTableViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		879E7447F0EE295CBB1EA00C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B8C6CBBDE81A10CB916AF64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreeTableView/Pods-TreeTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C87C0207E6991485159115E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreeTableView/Pods-TreeTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B4C9DE35261E3D5714FF59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA4BC5D81E8E02BF001BF109 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DA4BC5E71E8E02BF001BF109 /* ViewController.m in Sources */,
+				DAD0DA221E92073E00D09099 /* ZPHModel.m in Sources */,
 				DA4BC5E41E8E02BF001BF109 /* AppDelegate.m in Sources */,
+				DAD0DA1F1E91EE1600D09099 /* ZPHTableView.m in Sources */,
 				DA4BC5E11E8E02BF001BF109 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +506,7 @@
 		};
 		DA4BC5FF1E8E02BF001BF109 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B4B4B9CE17226F45BF5FF4 /* Pods-TreeTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3LQZWC5F6U;
@@ -363,6 +519,7 @@
 		};
 		DA4BC6001E8E02BF001BF109 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1CD892973D50D28B98625C /* Pods-TreeTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3LQZWC5F6U;
@@ -375,6 +532,7 @@
 		};
 		DA4BC6021E8E02BF001BF109 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004A8019D7D250D4D29313B9 /* Pods-TreeTableViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3LQZWC5F6U;
@@ -388,6 +546,7 @@
 		};
 		DA4BC6031E8E02BF001BF109 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2620E2F5700AAE297E5FF101 /* Pods-TreeTableViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3LQZWC5F6U;
@@ -418,6 +577,7 @@
 				DA4BC6001E8E02BF001BF109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA4BC6011E8E02BF001BF109 /* Build configuration list for PBXNativeTarget "TreeTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +586,7 @@
 				DA4BC6031E8E02BF001BF109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
