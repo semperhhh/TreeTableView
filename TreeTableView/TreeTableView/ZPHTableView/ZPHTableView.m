@@ -71,8 +71,10 @@
         endPosition += model.children.count;
         for (ZPHModel *childrenModel in model.children) {
             
-            childrenModel.expansion = !childrenModel.expansion;
-            expandInt += childrenModel.children.count;
+            if (childrenModel.expansion) {
+                childrenModel.expansion = !childrenModel.expansion;
+                expandInt += childrenModel.children.count;
+            }
         }
         [_dataArray removeObjectsInRange:NSMakeRange(startPosition, endPosition-startPosition +expandInt)];//从数组删除
     }
